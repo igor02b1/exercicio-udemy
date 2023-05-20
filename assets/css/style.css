@@ -19,11 +19,27 @@ body {
 
 }
 
+h1 {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+.div-pai {
+    display: flex;
+}
+
 .container {
     max-width: 640px;
     margin: 50px auto;
     padding: 20px;
     background: #fff;
+}
+
+.table-1 {
+    padding-right: 5rem;
 }
 
 form input, form label, form button {
@@ -57,4 +73,14 @@ form button {
 
 form button:hover{
     background: var(--primary-color-dark);
+}
+
+.paragrafo-positivo {
+    background: #3bf44e;
+    padding: 10px 10px;
+}
+
+.paragrafo-negativo {
+    background: #ed2c2c;
+    padding: 10px 10px;
 }
